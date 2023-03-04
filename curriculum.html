@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/letra-v.png">
+    <link rel="stylesheet" type="text/css" href="css/estilocv.css">
+    <script src="https://kit.fontawesome.com/1e6d91573b.js" crossorigin="anonymous"></script>
+    <script src="js/curriculum.js"></script>    
+    <title> Mi curriculm </title>
+</head>
+<body>
+    <main> 
+        <header>            
+            <img width="200" height="180" src="https://randomuser.me/api/portraits/women/40.jpg">
+            <h1> Clara Hayes  </h1>
+            <h2> Desarrolladora web </h2>
+            
+        </header>
+        <section>
+            <h2> Sobre mí </h2>
+            <h3> Diseñadora gráfica responsable, creativa, organizada y capaz de adaptarme a cualquier circunstancia. </h3> 
+            
+            <h2> Información personal </h2>
+            <h3> Fecha de nacimiento: 3/6/1988 </h3>
+            <h3> Dirección: 8723 Timber Wolf Trail </h3>
+            <h3> Mar del Plata - Buenos Aires, Argentina </h3>
+            <h3> <i class="fa-regular fa-envelope"></i> Email: clara.hayes@example.com   </h3>                      
+            <h3> <i class="fa-brands fa-whatsapp"></i> Whatsapp: (223) 937-1740 </h3>
+            <br>
+            <h4 id="button" class="button" onclick="mensaje()">  Información adicional   </h4>
+
+        </section>
+        
+        <aside>
+            <h2> Habilidades </h2>
+                <ul>
+                    <li>  <b> HTML </b>  </li> 
+                    <li> <b> CSS </b>  </li>
+                    <li> <b> JavaScript </b>  </li>
+                    <li>  <b> Python </b>  </li>
+                    <li> <b> Node Js </b>  </li>
+                </ul>
+            <hr>
+            <h2> Idiomas </h2>      
+                <ul>
+                    <li>  <b> Inglés básico </b>  </li> 
+                </ul>                        
+            <hr>
+            <h2> Experiencia </h2>
+                <ul>
+                    <li>  <b> Planificación de proyectos </b>  </li> 
+                </ul>
+            <!-- <ul>
+                    <li> <b> Desde: </b>  </li>
+                    <li> <b> Hasta: </b>  </li>
+                </ul> -->
+                <ul>
+                    <li>  <b> Mantenimiento de corrección de datos </b>  </li> 
+                </ul>
+            <hr>
+            <h2> Otros estudios </h2>
+                <ul>
+                    <li>  <b> Profesora de Matemática en Educación Secundaria </b>  </li> 
+                </ul>
+        </aside>
+        <br>
+        <footer> 
+            <form>
+                <p> Ingrese por favor los siguientes datos</p>
+                <label for="nombre" > Nombre
+                    <input id="nombre" type="text" placeholder="ingrese su nombre">
+                </label>
+    
+                <label for="apellido"> Apellido
+                    <input id="apellido" type="text" placeholder="ingrese su apellido">
+                </label>     
+                   <button id="agregar" type="reset" onclick="capturar()"> Haga click aquí </button>
+            </form>
+        </footer>
+    </main> 
+</body>
+</html>

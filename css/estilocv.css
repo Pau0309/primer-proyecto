@@ -1,0 +1,98 @@
+main {
+    width: 960px;
+    height: 1020px;
+    margin: auto 10px auto 10px;
+    padding-top: 1px;
+    background-color: rgb(243, 40, 40);
+    border-style:double;
+    border-radius: 5px;
+}
+header{
+    background-color: rgb(153, 149, 149);
+    width: 940px;
+    height: 200px;
+    text-align: justify;
+    margin: 5px 10px;
+    border-radius: 5px;    
+}
+header img{ /* puedo usar inframe*/
+/* width: min-content;
+height: max-content;*/   
+    padding: 10px;
+    float:left;
+    margin-right: 15px; /* esto es para que el texto no este pegado a la foto*/
+}
+
+section{
+    background-color:rgb(153, 149, 149);
+    width: 440px;
+    height: 650px;
+    margin: 5px 10px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+aside{
+    background-color: rgb(153, 149, 149);
+    width: 440px;
+    height: 650px;
+    margin: 5px 10px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+footer{
+    background-color: rgb(153, 149, 149);
+    width: 940px;
+    height: 83px;
+    margin: 5px 10px;
+    
+    float: right;
+}
+
+h1{
+    font-weight: 100 bold;
+    color: white;
+    padding: 5px;
+    margin: 30px;
+}
+
+h2{
+    font-weight: 100 bold;
+    color: white;
+    padding: 5px;
+    margin: 30px;
+    /*border: 1px solid black;*/
+}
+p{
+    font-size: medium;
+    color: black;
+    width: auto;
+    text-align: center;    
+}
+
+.button{ /*para que parezca un boton ... */
+    margin-bottom: 10px;
+    padding: 1rem;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    width: fit-content; /* con fit-content mide depende el contenido */
+}
+
+/*h4{ 
+    background-color: rgb(60, 61, 60);
+    color: #fff;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px; 
+    text-align:center;
+}*/
+
+h4:hover{ 
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0 5px 5px whitesmoke;
+}
